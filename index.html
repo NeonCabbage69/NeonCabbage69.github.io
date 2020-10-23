@@ -2,9 +2,19 @@
 <head>
     <script>
         function vibrate(){
-            navigator.vibrate([100, 100, 100, 2000, 1000, 15000, 1000, 2000, 1000, 
+            var pattern = document.getElementById("pattern").value;
+            pattern = pattern.split(" ", "");
+            var patternArray = [];
+
+            if(pattern == ""){
+                patternArray = [100, 100, 100, 2000, 1000, 15000, 1000, 2000, 1000, 
             3000, 495, 10, 495, 7000, 1000, 5000, 1000, 1000, 495, 10, 495, 9000, 1000, 50, 1000,
-             4000, 1000, 2000, 100, 100, 100]);
+             4000, 1000, 2000, 100, 100, 100];
+            } else {
+                var patternArray = pattern.split(",");
+            }
+
+            navigator.vibrate(patternArray);
         }
     </script>
 
@@ -15,7 +25,7 @@
         position: relative;
     }
     
-    input {
+    .button {
       border: none;
       color: black;
       padding: 15px 32px;
@@ -35,7 +45,9 @@
 </head>
 <body>
     <div>
-        <input value="Push This" onclick="vibrate()" type="button"/>
+        <input class="button" value="Push This" onclick="vibrate()" type="button"/>
+        <label>Input pattern</label>
+        <input id="pattern" type="text"/>
     </div>
 </body>
 </html>
