@@ -3,7 +3,7 @@
     <script>
         function vibrate(){
             var pattern = document.getElementById("pattern").value;
-            pattern = pattern.split(" ", "");
+            pattern = pattern.replace(" ", "");
             var patternArray = [];
 
             if(pattern == ""){
