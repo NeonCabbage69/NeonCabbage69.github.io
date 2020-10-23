@@ -19,7 +19,7 @@
     </script>
 
 <style>
-    div {
+    #container {
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -41,13 +41,28 @@
       left: 50%;
       margin: -15vh 0 0 -25vw; 
     }
+
+    .textbox {
+        width: 80%;
+        font-size: 40px;
+    }
+
+    label{
+        font-size: 40px;
+    }
     </style>
 </head>
 <body>
-    <div>
-        <input class="button" value="Push This" onclick="vibrate()" type="button"/>
-        <label>Input pattern</label>
-        <input id="pattern" type="text"/>
+    <div id="container">
+        <div>
+            <input class="button" value="Push This" onclick="vibrate()" type="button"/>
+        </div>
+        <br/>
+        <div>
+            <label>Input pattern</label>
+            <br/>
+            <input class="textbox" id="pattern" type="text"/>
+        </div>
     </div>
 </body>
 </html>
