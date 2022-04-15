@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NQNPif0RClfkNlZtbZ64CIzZCG+U7T3vgyS70IfzgLwCv4sj/dM0cbQUcoeUOCOE0m8tALWokVNgb4ViDYonpQ==",
+  "success": true,
+  "projectFilePath": "C:\\code\\NeonCabbage69.github.io\\email-help-desk\\server\\WebApi\\WebApi\\WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenno\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\lenno\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\lenno\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\lenno\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\lenno\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\lenno\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
